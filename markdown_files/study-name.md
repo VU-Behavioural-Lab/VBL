@@ -1,8 +1,5 @@
-
 # Study name
-
-A study name should be **short** and **general** (i.e., not containing highly-specific study information). Please also include the **current date** before the title of your study (see example below).
-
+The name of a study should be **short** and **general**, i.e., it should not contain highly specific study information. Also, please include the **current date** before the title of your study (see the example below).
 
 >[!success] <i class="fa-regular fa-thumbs-up"></i> &nbsp Example: Good Study Name!
 ><img src="/static/images/good_name.png" alt="Good Study Name" class="responsive-image">

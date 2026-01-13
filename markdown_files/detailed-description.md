@@ -3,16 +3,14 @@
 
 For this section, you can **copy-paste the texts below**. Adjust the empty fields `{...}` according to your study.
 
-If you would like to add more information about your study, you can do so, but please **do not include any information about your hypotheses, variables, or payment**. 
-
+If you would like to add more information about your study, you can do so, but please **do not include any information about your hypotheses or variables**.
 
 {% if study_type == 'online' %}
 >[!info] <i class="fa-solid fa-info"></i> &nbsp Text to copy paste (for an online study)
 ><br>
->This study will take approximately `{...}` minutes. Payments will only be allocated when you carefully read instructions of the researchers.
+>This study will take approximately `{...}` minutes. The study language is `{...}`. You will receive `{...}` EUR for completing this study.Payments will only be allocated when you carefully read instructions of the researchers and when your responses have been completely recorded. Incomplete responses will not be compensated. Payments will be processed only after the deadline of the timeslots have been passed.
 >  
 >The session is organized by researchers from the Department of `{...}`, Vrije University Amsterdam, `{(if applicable) in collaboration with researchers from ...}`.
-
 
 {% endif %}
 {% if study_type == 'lab' %}

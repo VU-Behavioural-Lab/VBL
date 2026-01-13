@@ -2,13 +2,13 @@
 # Your responsibility during data collection
 
 {% if study_type == 'online' or assistant_status == 'y'%}
-As soon as the study details have been approved by us, your study will be launched and advertised to the students.
+As soon as the study details have been approved by us, your study will be launched and advertised to the students. Please keep an eye out on participant registration.
 
 {% if study_type == 'online'%}
-For **your online study**, students can enroll and participate directly, and you do not have a responsibility during data collection.
+For **your online study**, students can enroll and participate directly.
 {% endif %}
 {% if assistant_status == 'y' %}
-Given that you are requesting lab assistants from us, we will arrange **your lab study** by opening time slots on SONA, and arranging the study in the Transitorium building. You do not have a responsibility during this process.
+Given that you are requesting lab assistants from us, we will arrange your lab study by opening time slots on SONA, and arranging the study in the Transitorium building or elsewhere. You as a researcher do not have a responsibility during this process.
 {% endif %}
 
 Although, we do recommend that you already check out now what needs to be done after data collection by following the next steps, so that you know what to expect. 

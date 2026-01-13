@@ -1,12 +1,7 @@
----
-name: "Add researchers"
----
+# Add researchers to your study
+Select your name as a researcher and add your co-authors, if applicable. Please note that you can only add VU employees or students.
 
-# Adding researchers to your study
-
-Here you select **your name** as a researcher, and add your **co-authors** if there are any. Note that you can only add VU employees or students. 
-
-If they are not yet registered as researcher in SONA, they have to email us at <a href="mailto:vbl@vu.nl">vbl@vu.nl</a> with the following details:
+If they are not yet registered as researchers in SONA, they must email us at <a href="mailto:vbl@vu.nl">vbl@vu.nl</a> with the following information:
         <ul>
             <li>First Name</li>
             <li>Last Name</li>

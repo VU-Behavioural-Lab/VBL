@@ -1,4 +1,4 @@
-
+<!-- 
 # Arranging time slots 
 
 ## How to create inital time slots on SONA
@@ -31,4 +31,4 @@ As a note, please make sure there is **adequate time in between the sessions** f
 
 ## How to cancel or modify timeslots later
 
-To cancel or modify a timeslot later, navigate to the timeslots page, and click "modify" next to the timeslot you would like to modify. On this new page, you can click the "delete" button to delete a timeslot. If you want to modify the date and time, or the number of participants for the given session, you can also do so on this page. Once you are done, do not forget to click the "Update timeslot" button. 
+To cancel or modify a timeslot later, navigate to the timeslots page, and click "modify" next to the timeslot you would like to modify. On this new page, you can click the "delete" button to delete a timeslot. If you want to modify the date and time, or the number of participants for the given session, you can also do so on this page. Once you are done, do not forget to click the "Update timeslot" button.  -->

@@ -13,4 +13,3 @@
 >[!info] <i class="fa-solid fa-info"></i> &nbsp Brain and Behaviour labs
 >
 > You can check the (BBLabs documentation)[https://brainbehavior.labs.vu.nl/docs#/] on how to reserve and arrange access to the Brain and Behaviour Labs.
-

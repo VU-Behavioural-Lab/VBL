@@ -15,6 +15,7 @@ step_1 = {
         "pre-requisites-and-disqualifiers",
         "study-url-and-survey-setup",
         "attention-checks",
+        "timeslots",
         "submit-study-for-approval"
     ],
     "SBE-online-n": [
@@ -33,6 +34,7 @@ step_1 = {
         "pre-requisites-and-disqualifiers",
         "study-url-and-survey-setup",
         "attention-checks",
+        "timeslots",
         "submit-study-for-approval"
     ],
     
@@ -51,8 +53,9 @@ step_1 = {
         "add-researchers",
         "ethical-approval",
         "pre-requisites-and-disqualifiers",
-        # "study-url-and-survey-setup",
+        "study-url-and-survey-setup",
         "attention-checks",
+        "timeslots",
         "submit-study-for-approval"
     ],
     "FGB-lab-n": [
@@ -70,8 +73,9 @@ step_1 = {
         "add-researchers",
         "ethical-approval",
         "pre-requisites-and-disqualifiers",
-        # "study-url-and-survey-setup",
+        "study-url-and-survey-setup",
         "attention-checks",
+        "timeslots",
         "submit-study-for-approval"
     ],
     "SBE-lab-y": [
@@ -89,8 +93,9 @@ step_1 = {
         "add-researchers",
         "ethical-approval",
         "pre-requisites-and-disqualifiers",
-        # "study-url-and-survey-setup",
+        "study-url-and-survey-setup",
         "attention-checks",
+        "timeslots",
         "submit-study-for-approval"
     ],
     "SBE-lab-n": [
@@ -108,8 +113,9 @@ step_1 = {
         "add-researchers",
         "ethical-approval",
         "pre-requisites-and-disqualifiers",
-        # "study-url-and-survey-setup",
+        "study-url-and-survey-setup",
         "attention-checks",
+        "timeslots",
         "submit-study-for-approval"
     ]
 }
@@ -127,28 +133,23 @@ step_2 = {
         "granting-or-denying-payment"
     ],
 
-
-
-
     "FGB-lab-n": [
         "step-2-overview",
         "data-collection",
-        "arrange-time-slots",
+        "arrange-access",
         "granting-or-denying-payment"
     ],
-
-
-
 
     "SBE-lab-y": [
         "step-2-overview",
         "data-collection",
+        "arrange-access",
         "granting-or-denying-payment"
     ],
+    
     "SBE-lab-n": [
         "step-2-overview",
         "data-collection",
-        "arrange-time-slots",
         "arrange-access",
         "study-day",
         "granting-or-denying-payment"
