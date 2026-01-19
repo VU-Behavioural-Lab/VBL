@@ -1,4 +1,3 @@
-
 # Your responsibility during data collection
 
 {% if study_type == 'online' or assistant_status == 'y'%}
@@ -15,17 +14,30 @@ Although, we do recommend that you already check out now what needs to be done a
 {% endif %}
 
 {% if faculty == 'FGB' and study_type == 'lab' %}
-As an FGB researcher, it is your responsibility to arrange lab access to the Brain & Behaviour Labs facilities. You can consult the [BBLabs Documentation](https://brainbehavior.labs.vu.nl/docs#/){:target="_blank" rel="noopener noreferrer"}.
+## Arranging Lab Access
 
-If your study includes timeslots that participants can sign up to, you must also arrange them before your study is launched. Once the study is launched, students will enroll in one of the available time slots created by you or your research assistants. Please see the next page on how to **arrange time slots**. 
+As an FGB researcher, you must arrange access to the Brain & Behaviour Labs facilities before your study begins. Consult the <u>**[BBLabs Documentation](https://brainbehavior.labs.vu.nl/docs#/)**</u> for access procedures.
 
-On the other hand, if your study includes walk-in participation, make sure this is mentioned in the study description.
+## Scheduling Options
+
+**Time slot-based studies:**
+If participants sign up for specific sessions, you must create time slots in SONA before launching your study. Once launched, students will enroll in the available slots created by you or your research assistants.
+
+**Walk-in studies:**
+If your study allows walk-in participation, clearly state this in your study description so participants know they can attend without booking a specific time.
 {% endif %}
 
 {% if faculty == 'SBE' and study_type == 'lab' and assistant_status == 'n' %}
-If you are conducting your research on the Transitorium, **we will communicate to you the available dates and times for the lab**. 
+We will communicate the available dates and times for the Applied Behavioural Science Labs (Transitorium) to you. Once you receive this information, follow these steps:
 
-Once we do this, you must arrange timeslots that participants can sign up to before your study is launched. Once the study is launched, students will enroll in one of the available time slots created by you. Please see the next page on how to **arrange time slots**. 
+## Scheduling Options
 
-It is also your responsibility to arrange lab access to the lab facilities. After the dates of your research have been set, you can arrange access to the building. The next pages give you more information on this.
+**Time slot-based studies:**
+If participants sign up for specific sessions, you must create time slots in SONA before launching your study. Once launched, students will enroll in the available slots created by you.
+
+**Walk-in studies:**
+If your study allows walk-in participation, clearly state this in your study description so participants know they can attend without booking a specific time.
+
+## Lab access
+After your research dates are confirmed, arrange access to the Transitorium building. See the following pages for detailed instructions on arranging time slots and building access.
 {% endif %}

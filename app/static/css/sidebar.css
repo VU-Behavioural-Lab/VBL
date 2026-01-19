@@ -1,0 +1,140 @@
+/* Sidebar Container */
+.sidebar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: #ffffff;
+    overflow-y: auto;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem 0;
+}
+
+/* Step Section Headers */
+.step-section {
+    margin-bottom: 1.5rem;
+}
+
+.step-section h3 {
+    padding: 1rem 1.5vw;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Collapsible Button - MORE OBVIOUS */
+.collapsible {
+    background-color: #f8f9fa;
+    color: #333;
+    cursor: pointer;
+    padding: 1rem 1.5vw;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* Add arrow icon */
+.collapsible::after {
+    content: '▼';
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+    color: #666;
+}
+
+.collapsible.active::after {
+    transform: rotate(-180deg);
+    color: #ffffff;
+}
+
+.collapsible:hover {
+    background-color: #e9ecef;
+    padding-left: 2vw;
+}
+
+.collapsible.active {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.collapsible.active:hover {
+    background-color: #007bff;
+}
+
+/* Collapsible Content */
+.content {
+    display: none;
+    padding: 0;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+/* Page List */
+.page-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-list li {
+    padding: 0.75rem 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.page-list li:hover {
+    background-color: #f8f9fa;
+    padding-left: 2.2rem;
+}
+
+.page-list li.active {
+    background-color: #007bff;
+    border-left: 4px solid #007bff;
+}
+
+.page-list li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.page-list li.active a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-left: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Return to Overview Button - Make Narrower */
+nav[aria-label="progress-bar"] .btn-secondary {
+    width: auto !important;
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 8px 16px;
+    margin-left: 15px;  /* Add some spacing from the progress bar */
+}
+
+
+
+

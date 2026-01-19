@@ -1,7 +1,6 @@
-
 # Arranging access to the labs
 
->[!info] <i class="fa-solid fa-info"></i> &nbsp Transitorium
+>[!info] <i class="fa-solid fa-info"></i> &nbsp Applied Behavioural Science Lab
 >
 > Our computer labs are located on the second basement floor of the Transitorium building. You need access cards to open the lab doors. We have arranged for the security team to provide access cards for researchers wanting to enter the lab spaces.
 >
@@ -10,6 +9,7 @@
 > Please ensure that you *send this email to them prior to your experiment dates* with the above details. Without these details, the host will not be able to give you the access cards.
 
 
->[!info] <i class="fa-solid fa-info"></i> &nbsp Brain and Behaviour labs
+>[!info] <i class="fa-solid fa-info"></i> &nbsp Brain and Behaviour Labs
 >
-> You can check the (BBLabs documentation)[https://brainbehavior.labs.vu.nl/docs#/] on how to reserve and arrange access to the Brain and Behaviour Labs.
+> To request equipment or access to the Brain & Behaviour Labs, email us at <u>**[vbl@vu.nl](mailto:vbl@vu.nl)**</u>.
+

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/typography.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/progress.css') }}">  
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sidebar.css') }}">
     <link rel="icon" type="ximage/png" href="{{ url_for('static', filename='images/vbl_logo_cropped.png') }}">
 </head>
 <body>
@@ -53,8 +54,7 @@
             </div>
 
             <!-- Main Content Area -->
-            <div class="col-md-9">
-                
+            <div class="col-md-7">
                 <nav aria-label="progress-bar" style="font-size: 1rem;">
                     <div class="d-flex justify-content-between align-items-center" style="width: 100%; margin: 5px 0;">
                         
@@ -73,11 +73,10 @@
                         <a href="{{ url_for('main.show_page', page_name='researcher-overview') }}" class="btn btn-secondary">
                             <i class="fas fa-home"></i> Return to Overview
                         </a>
-                        
                     </div>
                 </nav>
                                 
-                <!-- Search Results Content -->
+                <!-- Content Container -->
                 <div class="content-container mt-4">
                     
                     <!-- Top Navigation Buttons -->
@@ -98,8 +97,35 @@
                     {{ content|safe }}
                     
                 </div>
-
             </div>
+
+            <!-- Sidebar on the RIGHT -->
+            <div class="col-md-2 p-0">
+                <div class="sidebar">
+                    {% for step_num in [1, 2] %}
+                    <!-- Step {{ step_num }} -->
+                    <button type="button" class="collapsible {% if step == step_num %}active{% endif %}">
+                        Step {{ step_num }}
+                    </button>
+                    <div class="content" style="{% if step == step_num %}display: block;{% endif %}">
+                        {% set step_key = 'step_' ~ step_num %}
+                        {% set study_key = faculty ~ '-' ~ study_type ~ '-' ~ assistant_status %}
+                        {% if all_steps[step_key] and study_key in all_steps[step_key] %}
+                        <ul class="page-list">
+                            {% for page in all_steps[step_key][study_key] %}
+                            <li class="{% if page == current_page %}active{% endif %}">
+                                <a href="{{ url_for('manual.show_step', step=step_num, faculty=faculty, study_type=study_type, assistant_status=assistant_status, page_name=page) }}">
+                                    {{ page.replace('-', ' ').title() }}
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -111,6 +137,23 @@
     <script src="{{ url_for('static', filename='js/slider.js') }}"></script>
     <script src="{{ url_for('static', filename='js/collapsibles.js') }}"></script>
     <script src="{{ url_for('static', filename='js/preview.js') }}"></script>
+    
+    <!-- Sidebar collapsible script -->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        for (var i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+    
     <script>
         function performSearch() {
             const query = document.getElementById('search-query').value;

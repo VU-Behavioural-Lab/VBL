@@ -136,7 +136,7 @@ step_2 = {
     "FGB-lab-n": [
         "step-2-overview",
         "data-collection",
-        "arrange-access",
+        #"arrange-access",
         "granting-or-denying-payment"
     ],
 

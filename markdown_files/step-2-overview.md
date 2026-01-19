@@ -1,12 +1,12 @@
+# Step 2: Data Collection and Payment
+This section covers your responsibilities during the data collection phase:
 
-# Overview for Step 2:
-In this step, we give information regarding:
-
-- Your responsibility during data collection
+- Managing data collection and participant interactions
 {% if study_type == 'lab' and assistant_status == 'n' %} 
-- How to arrange your study by opening time slots on SONA 
-- How to arrange access to the Labs
-- What to do on the day of your studies 
+- Scheduling sessions by opening time slots in SONA
+- Requesting lab access
+- Study day procedures and checklist
 {% endif %}
-- Situations in which you can deny payment to participants
-- The process of payment after data collection
+
+- Payment guidelines and when payment can be denied
+- Processing participant payments after data collection

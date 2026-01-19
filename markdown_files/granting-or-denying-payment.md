@@ -69,7 +69,16 @@ To deny payment to a participant, because of any of these conditions, keep their
 > - After your study is concluded, you identify the top 10. 
 > - On the payment page on SONA (same page as described above), for each of these 10 participants, you should enter "Incentive: 15" as a comment. 
 > - We will make the payment according to these comments, hence, please do not deviate from the format of "Incentive: `{amount}`".
-> - You have 2 business working days after the deadline to add the incentivized amount. After the 2 business days, we will begin processing payments and you cannot deny payments to participants thereafter.
+> - You have 2 business working days after the deadline to add the incentivized amount.
+
+>[!info] <i class="fa-solid fa-info"></i> &nbsp Do you have a study with multiple phases? 
+><br>
+> If your study has multiple phases (e.g., intake session + online surveys) where participants earn different amounts depending on which phase they complete, payment administration requires additional tracking:
+>
+> **Your responsibility:**
+> Track each participant's progress and create an Excel sheet with three columns: (1) SONA ID, (2) Amount earned per participant, and (3) Completion status. Make sure to include dropouts and the amount they earned.
+> Submit this spreadsheet to us so we can process payments accurately
+> This ensures participants receive the correct payment based on how far they progressed in your study.
 
 We will review the status of participants on SONA after the timeslot deadline.
 

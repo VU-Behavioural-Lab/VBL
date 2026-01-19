@@ -73,8 +73,12 @@ def show_step(step, faculty, study_type, assistant_status, page_name):
             faculty=faculty,  # Pass the faculty
             study_type=study_type,  # Pass the study type
             assistant_status=assistant_status,  # Pass the assistant status (even if it's 'n' for online)
-            breadcrumb_path=breadcrumb_path  # Use the dynamically built breadcrumb path
-        )
+            breadcrumb_path=breadcrumb_path,  # Use the dynamically built breadcrumb path
+            current_page=page_name,  # Current page name
+            step_pages=step_data[key],  # All pages in this step
+            all_steps={'step_1': step_1, 'step_2': step_2}  # All step data
+)
+        
     else:
         return "Page not found", 404
 

@@ -1,6 +1,6 @@
 /* Main Content Styles */
 .content-container {
-    max-width: 65%;
+    max-width: 95%;
     margin: auto;
     padding: 2vw; /* Responsive padding using vw */
     background-color: #ffffff;
