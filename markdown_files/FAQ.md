@@ -88,21 +88,31 @@
   <div id="students-faq" class="faq-section">
     <details class="faq-item">
       <summary>
-        <span class="q">Who is the VU Student Pool and when are they available?</span>
-        <span class="chev" aria-hidden="true"></span>
-      </summary>
-      <div class="a">
-        The VU Student Pool consists of students from various academic backgrounds who participate in behavioural and cognitive research studies. They are available throughout the entire calendar year. 
-      </div>
-    </details>
-
-    <details class="faq-item">
-      <summary>
         <span class="q">How long does the participant payment usually take?</span>
         <span class="chev" aria-hidden="true"></span>
       </summary>
       <div class="a">
         We typically process payments within <strong>2 weeks</strong>, though this may take longer during holidays or summer break. Payment timelines can vary by study, so please check the study description for specific details.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>
+        <span class="q">What happens if I provided the wrong payment information?</span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="a">
+        If the payment information you provided is incorrect and we are unable to process your payout, we will contact you to request updated details. If we do not receive a response within 14 days, the payout may be forfeited. Therefore, please ensure your payment information is accurate to avoid delays or loss of payment.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>
+        <span class="q">How can I update my payment information?</span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="a">
+        If your payment information changed, please reach out to us via <a href="mailto:vbl@vu.nl">vbl@vu.nl</a>. We will delete your information in the system and you can then enter your correct or updated information.
       </div>
     </details>
   </div>
@@ -111,11 +121,20 @@
   <div class="faq-general">
     <details class="faq-item">
       <summary>
+        <span class="q">Who is the VU Student Pool and when are they available?</span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="a">
+        The VU Student Pool consists of students from various academic backgrounds who participate in behavioural and cognitive research studies. They are available throughout the entire calendar year. 
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>
         <span class="q">My question is not mentioned here?</span>
         <span class="chev" aria-hidden="true"></span>
       </summary>
       <div class="a">
-        If you have a different question than what is discussed in this FAQ, please feel free to reach out the the VU Behavioral Lab team via <a href="mailto:vbl@vu.nl">vbl@vu.nl</a>. They will try to respond as soon as possible to your question and make sure that it will be listed on this page as well. 
+        If your payment information has changed, please contact us at <a href="mailto:vbl@vu.nl">vbl@vu.nl</a>. We will remove your existing details from our system so that you can submit your updated payment information.
       </div>
     </details>
   </div>
