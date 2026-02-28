@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{# Header: keep it, but add a small CSS fix so the image isn't huge #}
+<style>
+  .page-header .header-image {
+    max-height: 260px;
+    overflow: hidden;
+    position: relative;
+  }
+  .page-header .header-image img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+  }
+  .page-header .header-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+  }
+  .page-header .header-title {
+    padding: 16px 24px;
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+  }
+</style>
+
+<section class="page-header">
+    <h1>How to Participate in Research</h1>  
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Getting Started</h2>
+    <p>To participate, you must have a valid VU Amsterdam student account.</p>
+    <p>
+      Log in to
+      <a href="https://vu-vbl.sona-systems.com" target="_blank" rel="noopener noreferrer" class="link">VBL SONA</a>
+      using VU SSO (Single Sign-On), and participate in the available studies!
+    </p>
+    <p>
+      When logging in for the first time, fill in your name, email, address, and IBAN (for payment).
+      This information, per VU privacy policy, is only accessed by the financial administration to process payments.
+      Please notify us by email at <a href="mailto:vbl@vu.nl" class="link">vbl@vu.nl</a> if any details change.
+    </p>
+
+    <h2>Paid Research Participation</h2>
+    <p>You will receive an email when a study is available for participation. You may participate in either online or physical lab studies:</p>
+    <ul>
+      <li>For online studies, you can participate immediately.</li>
+      <li>For physical lab studies, you must select a timeslot from the available options.</li>
+    </ul>
+    <p>
+      The compensation rate is <strong>12.5 EUR per hour</strong> for lab studies and
+      <strong>10 EUR per hour</strong> for online studies, with potential performance incentives for some studies.
+      After participating, payment will usually take 2-3 weeks.
+    </p>
+    <p>
+      Physical study participation may be canceled up to 24 hours in advance.
+      Accumulating three unexcused absences will result in a suspension of your account.
+      To reactivate your account, email us!
+    </p>
+  </div>
+</section>
+
+{% endblock %}

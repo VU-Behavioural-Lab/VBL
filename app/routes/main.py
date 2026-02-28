@@ -21,7 +21,7 @@ def home():
 # Student page
 @bp.route('/student')
 def student():
-    return render_template('student.html')
+    return redirect(url_for('main.show_page', page_name='how-to-participate'))
 
 
 # Standalone route (e.g., /create-a-new-study)
