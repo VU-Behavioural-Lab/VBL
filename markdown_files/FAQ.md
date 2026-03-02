@@ -115,6 +115,21 @@
         If your payment information changed, please reach out to us via <a href="mailto:vbl@vu.nl">vbl@vu.nl</a>. We will delete your information in the system and you can then enter your correct or updated information.
       </div>
     </details>
+
+    <details class="faq-item">
+      <summary>
+        <span class="q">Can I participate for course credits instead of monetary compensation?</span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="a">
+        The VBL SONA system is used <strong>only for monetary compensation</strong> and does not grant course credits.
+        If you would like to participate in research for credits, please register via your faculty’s SONA system:<br>
+        <a href="https://vueconomics.sona-systems.com/Default.aspx?ReturnUrl=%2fmain.aspx" target="_blank" rel="noopener noreferrer"><u>SBE (School of Business and Economics) SONA System</u></a>
+        <br>
+        <a href="https://vu.sona-systems.com/Default.aspx?ReturnUrl=%2f" target="_blank" rel="noopener noreferrer"><u>FGB (Faculty of Behavioural and Movement Sciences) SONA System</u></a> <br>
+        For questions regarding credit participation, please contact your faculty coordinators directly.
+      </div>
+    </details>
   </div>
 
   <!-- General FAQ (visible in both) -->

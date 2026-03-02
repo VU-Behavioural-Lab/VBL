@@ -1,6 +1,6 @@
 # How to participate in research
 
-As a participant of VBL, you get to contribute to the research at VU and earn money for your participation. To participate, you must have a valid **VU Amsterdam student account**.
+As a participant of VBL, you get to contribute to the research at VU and **earn money for your participation**. To participate, you must have a valid **VU Amsterdam student account**.
 
 ### Getting started
 
@@ -20,3 +20,13 @@ You will receive a notification via email when a study is available for you to p
 The compensation rate is **12.5 EUR per hour** if you participate in a on-site lab study and **10 EUR per hour** if you participate in an online study. This rate can be higher for studies with a performance incentive. After participating, payment will usually take 2-3 weeks.
 
 For physical studies, you are allowed to cancel your participation from the research up to 24 hours prior to your scheduled time. If circumstances prevent you from attending after this period, please notify the researchers by email. **Accumulating three unexcused absences will result in a suspension of your account.** To reactivate your account, email us!.
+
+### Credit participation
+
+Please note that the **VBL SONA system is only used for monetary compensation**. Participation via this system does **not** grant course credits.
+If you would like to participate in research for **course credits**, please register via your faculty’s SONA system instead:
+
+- [<u>SBE (School of Business and Economics)</u>](https://vueconomics.sona-systems.com/Default.aspx?ReturnUrl=%2fmain.aspx)
+- [<u>FGB (Faculty of Behavioural and Movement Sciences) SONA System</u>](https://vu.sona-systems.com/Default.aspx?ReturnUrl=%2f)
+
+For questions regarding credit participation, please contact your faculty coordinators directly.
