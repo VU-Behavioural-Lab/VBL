@@ -1,15 +1,16 @@
 # Detailed description
 
 For this section, you can **copy and paste the template below** and fill in the empty fields `{...}` with the relevant information for your study.
-
-Please include the required information only:
-- Short description
-- Payments and processing time
-- Duration of study
-- Language of study
-- Location of study
-- Sign-ups & Unexcused No-shows
-- Researcher information: name, department, faculty, and email address
+Please include the required information:
+<ul>
+  <li>Short description</li>
+  <li>Payments and processing time</li>
+  <li>Duration of study</li>
+  <li>Language of study</li>
+  <li>Location of study</li>
+  <li>Sign-ups &amp; Unexcused No-shows</li>
+  <li>Researcher information: name, department, faculty, and email address</li>
+</ul>
 
 Without all of this information, the study will not be approved.
 
