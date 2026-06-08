@@ -109,7 +109,7 @@ Arrive at the lab about 30-45 minutes in advance, and set up all computers.
     - Read outloud the SONA IDs you have for the current timeslot, and ask students to identify themselves. 
     - Mark them as participated or unexcused. Please see the [granting or denying payment page](granting-or-denying-payment) to learn how to do that.
 3. Give instructions to all students.
-    - Standard Instructions: "Thank you for your participation! Please leave your bags and phones outside. Hand your coats on the coat hangers available. This study will take about `[your study duration]` minutes, and it `[consists of a single study / several independent studies]`. Please read everything carefully and answer all the required questions. Please also prepare your research ID (a 4/5-digit number). When there is no way to continue to the next page, it’s finished. Now you can enter a cubicle."
+    - Standard Instructions: "Thank you for your participation! Please leave your bags and phones outside. Hand your coats on the coat hangers available. This study will take about `[your study duration]` minutes, and it `[consists of a single study / several independent studies]`. Please read everything carefully and answer all the required questions. Please also prepare your SONA ID (a 4 or 5-digit number). When there is no way to continue to the next page, it’s finished. Now you can enter a cubicle."
 
 Commonly asked questions by participants:
 
