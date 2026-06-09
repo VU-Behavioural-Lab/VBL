@@ -21,7 +21,7 @@ If you would like to add more information about your study, you may do so, but p
 ><br>
 >**Short description:** `{...}`
 >
->**Payments and processing time:** You will receive `{...}` EUR for completing this study. Payments will be processed `{...}`.
+>**Payments and processing time:** You will receive `{...}` EUR as compensation for participating in this study. Payments will be transferred to your mentioned bank accounts and will only be allocated when you carefully read instructions of the researchers. Please note it will take up to 2 weeks' after your participation to receive your payments.
 >
 >**Duration of study:** This study will take approximately `{...}` minutes.
 >
@@ -40,7 +40,7 @@ If you would like to add more information about your study, you may do so, but p
 ><br>
 >**Short description:** `{...}`
 >
->**Payments and processing time:** `{...}`
+>**Payments and processing time:** You will receive `{...}` EUR as compensation for participating in this study. Payments will be transferred to your mentioned bank accounts and will only be allocated when you carefully read instructions of the researchers. Please note it will take up to 2 weeks' after your participation to receive your payments.
 >
 >**Duration of study:** This study will take approximately `{...}` minutes.
 >
@@ -48,7 +48,7 @@ If you would like to add more information about your study, you may do so, but p
 >
 >**Location of study:** This research takes place in the Applied Behavioural Science Lab, located on the second basement level (-2) of the [Transitorium Building](https://vu.nl/en/about-vu/more-about/transitorium).
 >
->**Sign-ups & Unexcused No-shows:** You must register for a spot in the available time slots. Please be present in the waiting area at least 5 minutes in advance. The session starts right on time, and access to the lab after the start time will be denied.
+>**Sign-ups & Unexcused No-shows:** You must register for a spot in the available time slots. Please be present in the waiting area at least 5 minutes in advance. The session starts right on time, and access to the lab after the start time will be denied. If you have registered but cannot make it, ensure to inform the research before your session starts. Otherwise, you will be marked as Unexcused No-Shows. If you collect 3 Unexcused No-Shows, your account will be deactivated and you cannot participate in any studies.
 >
 >**Researcher information:** This study is organized by `{name}`, Department of `{department}`, `{faculty}`, Vrije Universiteit Amsterdam, `{email}` `{(if applicable) in collaboration with researchers from ...}`.
 >
@@ -64,7 +64,7 @@ Importantly, if your experiment is a **walk-in study**, start the description wi
 ><br>
 >**Short description:** `{...}`
 >
->**Payments and processing time:** `{...}`
+>**Payments and processing time:** You will receive `{...}` EUR as compensation for participating in this study. Payments will be transferred to your mentioned bank accounts and will only be allocated when you carefully read instructions of the researchers. Please note it will take up to 2 weeks' after your participation to receive your payments.
 >
 >**Duration of study:** This study will take approximately `{...}` minutes.
 >
@@ -72,7 +72,7 @@ Importantly, if your experiment is a **walk-in study**, start the description wi
 >
 >**Location of study:** `{...}`
 >
->**Sign-ups & Unexcused No-shows:** `{...}`
+>**Sign-ups & Unexcused No-shows:** You must register for a spot in the available time slots. If you have registered but cannot make it, ensure to inform the research before your session starts. Otherwise, you will be marked as Unexcused No-Shows. If you collect 3 Unexcused No-Shows, your account will be deactivated and you cannot participate in any studies.`{...}`
 >
 >**Researcher information:** This study is organized by `{name}`, Department of `{department}`, `{faculty}`, Vrije Universiteit Amsterdam, `{email}` `{(if applicable) in collaboration with researchers from ...}`.
 >
