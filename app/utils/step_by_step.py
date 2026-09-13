@@ -99,7 +99,42 @@ step_1 = {
         "submit-study-for-approval"
     ],
     "SBE-lab-n": [
-        "step-1-overview",
+        "step-1-overview-SBE",
+        "types-of-labs",
+        "check-lab-availability",
+        "booking-rules",
+    ]
+}
+
+step_2 = {
+
+    "FGB-online-n": [
+        "step-2-overview",
+        "data-collection",
+        "granting-or-denying-payment"
+    ],
+    "SBE-online-n": [
+        "step-2-overview",
+        "data-collection",
+        "granting-or-denying-payment"
+    ],
+
+    "FGB-lab-n": [
+        "step-2-overview",
+        "data-collection",
+        "arrange-access",
+        "granting-or-denying-payment"
+    ],
+
+    "SBE-lab-y": [
+        "step-2-overview",
+        "data-collection",
+        "arrange-access",
+        "granting-or-denying-payment"
+    ],
+    
+    "SBE-lab-n": [
+        "step-2-overview-SBE",
         "create-a-new-study",
         "select-the-study-type",
         "fill-in-the-study-information-short",
@@ -120,38 +155,13 @@ step_1 = {
     ]
 }
 
-step_2 = {
-
-    "FGB-online-n": [
-        "step-2-overview",
-        "data-collection",
-        "granting-or-denying-payment"
-    ],
-    "SBE-online-n": [
-        "step-2-overview",
-        "data-collection",
-        "granting-or-denying-payment"
-    ],
-
-    "FGB-lab-n": [
-        "step-2-overview",
-        "data-collection",
-        #"arrange-access",
-        "granting-or-denying-payment"
-    ],
-
-    "SBE-lab-y": [
-        "step-2-overview",
-        "data-collection",
-        "arrange-access",
-        "granting-or-denying-payment"
-    ],
+step_3 = {
     
     "SBE-lab-n": [
-        "step-2-overview",
+        "step-3-overview-SBE",
         "data-collection",
         "arrange-access",
         "study-day",
         "granting-or-denying-payment"
-    ]
+    ],
 }

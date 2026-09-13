@@ -165,29 +165,57 @@ function handleAssistants(status, isPreloaded = false) {
 
 function updateLinks() {
     let studyPath = '';
+    let showStep3 = false;
 
     if (studyType === 'Online Study') {
-        // Online Study doesn't need the assistant status, but we add '/n/' as a placeholder
         studyPath = `${faculty}/online/n`;
     } else {
-        // Lab study logic
         if (faculty === 'FGB') {
-            // For FGB, automatically set the assistant status to 'n' and do not show it in the display
             studyPath = `${faculty}/lab/n`;
         } else {
-            // For other faculties, respect the chosen assistant status
             studyPath = `${faculty}/lab`;
             studyPath += assistantStatus === 'Conduct Study Yourself' ? '/n' : '/y';
         }
     }
 
-    // Update the links with the correct path
-    document.getElementById('step1Link').href = `/step-1/${studyPath}/step-1-overview`;
-    document.getElementById('step2Link').href = `/step-2/${studyPath}/step-2-overview`;
+    // Define the one combination that gets a 3rd step + different labels
+    const isSpecialCombo = faculty === 'SBE' && studyType === 'Lab Study' && assistantStatus === 'Conduct Study Yourself';
+    showStep3 = isSpecialCombo;
+
+    // Default labels
+    let step1Text = 'Step 1: Study creation';
+    let step2Text = 'Step 2: Running your study';
+    let step3Text = '';
+
+    if (isSpecialCombo) {
+        step1Text = 'Step 1: Check lab availability';
+        step2Text = 'Step 2: Study creation';
+        step3Text = 'Step 3: Running your study';
+    }
+
+    if (isSpecialCombo) {
+        document.getElementById('step1Link').href = `/step-1/${studyPath}/step-1-overview-SBE`;
+        document.getElementById('step2Link').href = `/step-2/${studyPath}/step-2-overview-SBE`;
+    } else {
+        document.getElementById('step1Link').href = `/step-1/${studyPath}/step-1-overview`;
+        document.getElementById('step2Link').href = `/step-2/${studyPath}/step-2-overview`;
+    }
+    document.getElementById('step1Label').innerText = step1Text;
+    document.getElementById('step2Label').innerText = step2Text;
+
+    const step3El = document.getElementById('step3Link');
+    if (showStep3) {
+        step3El.href = `/step-3/${studyPath}/step-3-overview-SBE`;
+        document.getElementById('step3Label').innerText = step3Text;
+        step3El.classList.remove('hidden');
+    } else {
+        step3El.classList.add('hidden');
+    }
 
     console.log("Generated Links: ", {
-        step1: `/step-1/${studyPath}/step-1-overview`,
-        step2: `/step-2/${studyPath}/step-2-overview`
+        step1: isSpecialCombo ? `/step-1/${studyPath}/step-1-overview-SBE` : `/step-1/${studyPath}/step-1-overview`,
+        step2: isSpecialCombo ? `/step-2/${studyPath}/step-2-overview-SBE` : `/step-2/${studyPath}/step-2-overview`,
+        step3: showStep3 ? `/step-3/${studyPath}/step-3-overview-SBE` : null
     });
 }
 
@@ -202,6 +230,7 @@ function resetSelections() {
     sessionStorage.removeItem('faculty');
     sessionStorage.removeItem('studyType');
     sessionStorage.removeItem('assistantStatus');
+    document.getElementById('step3Link').classList.add('hidden');
 
     // Hide the selections row and change button
     document.getElementById('selectionsRow').classList.add('hidden');

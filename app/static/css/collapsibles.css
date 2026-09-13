@@ -83,11 +83,11 @@
 }
 
 .callout-warning button {
-    color: #ffc107;
+    color: #000000;
 }
 
 .callout-warning button:hover {
-    color: #b38407;
+    color: #9d853b;
 }
 
 /* ERROR */

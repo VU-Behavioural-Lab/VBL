@@ -55,21 +55,17 @@ def preprocess_markdown(md_content):
     return processed_content
 
 def adjust_links(html_content):
-    """Adjust links that should be standalone instead of within the step paths."""
-    
-    # Define the regex pattern for relative links (not starting with 'http' or '/')
-    pattern = r'href="([^http|/][^"]*)"'
+    """Adjust relative links to standalone pages while preserving protocol links like mailto."""
 
-    # Function to replace the matched link with the standalone version
+    # Match only href values that are relative URLs, not absolute URLs or other protocols.
+    pattern = r'href="((?![a-zA-Z]+:|/|#|\\?)([^"]+))"'
+
     def replace_link(match):
         relative_link = match.group(1)
-        # Convert the relative link to a standalone format using Flask's `url_for`
         standalone_url = url_for('main.show_page', page_name=relative_link)
         return f'href="{standalone_url}"'
 
-    # Use re.sub to replace all the matching links in the HTML content
     adjusted_html = re.sub(pattern, replace_link, html_content)
-
     return adjusted_html
 
 def render_markdown_with_context(file_path, context):

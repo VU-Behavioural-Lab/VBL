@@ -10,6 +10,6 @@ Professor of Consumer Behaviour, School of Business and Economics
 Lab Manager       
 [s.desikan@vu.nl](mailto:s.desikan@vu.nl)     
 
-**Nadja Spannowsky**      
+**Priyanshi Dhillon**      
 Research Assistant and SONA administrator       
-[n.spannowsky@student.vu.nl](mailto:n.spannowsky@student.vu.nl)          
+[p.dhillon@student.vu.nl](mailto:p.dhillon@student.vu.nl)          

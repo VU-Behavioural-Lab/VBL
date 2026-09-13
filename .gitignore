@@ -1,6 +1,7 @@
 myvenv/
 venv/
 .venv/
+.venvVU/
 
 __pycache__/
 *.pyc

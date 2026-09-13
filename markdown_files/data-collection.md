@@ -16,7 +16,7 @@ Although, we do recommend that you already check out now what needs to be done a
 {% if faculty == 'FGB' and study_type == 'lab' %}
 ## Arranging Lab Access
 
-As an FGB researcher, you must arrange access to the Brain & Behaviour Labs facilities before your study begins. Consult the <u>**[BBLabs Documentation](https://brainbehavior.labs.vu.nl/docs#/)**</u> for access procedures.
+As an FGB researcher, you must arrange access to the Brain & Behaviour Labs facilities before your study begins. Consult the <u>**[BBLabs Documentation](https://bblabs.fgb.vu.nl/books/brain-behaviour-lab)**</u> for access procedures.
 
 ## Scheduling Options
 
@@ -28,7 +28,7 @@ If your study allows walk-in participation, clearly state this in your study des
 {% endif %}
 
 {% if faculty == 'SBE' and study_type == 'lab' and assistant_status == 'n' %}
-We will communicate the available dates and times for the Applied Behavioural Science Labs (Transitorium) to you. Once you receive this information, follow these steps:
+Now that your study has been created, check the lab availability calendar again and email us to confirm your room booking, as covered in Step 1. Once your booking is confirmed, follow these steps:
 
 ## Scheduling Options
 
@@ -39,5 +39,5 @@ If participants sign up for specific sessions, you must create time slots in SON
 If your study allows walk-in participation, clearly state this in your study description so participants know they can attend without booking a specific time.
 
 ## Lab access
-After your research dates are confirmed, arrange access to the Transitorium building. See the following pages for detailed instructions on arranging time slots and building access.
+After your research dates are confirmed, you need to arrange access to the Transitorium building. See the following pages for detailed instructions on arranging time slots and building access.
 {% endif %}

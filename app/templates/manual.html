@@ -102,30 +102,35 @@
             <!-- Sidebar on the RIGHT -->
             <div class="col-md-2 p-0">
                 <div class="sidebar">
-                    {% for step_num in [1, 2] %}
-                    <!-- Step {{ step_num }} -->
-                    <button type="button" class="collapsible {% if step == step_num %}active{% endif %}">
-                        Step {{ step_num }}
-                    </button>
-                    <div class="content" style="{% if step == step_num %}display: block;{% endif %}">
+                    {% set study_key = faculty ~ '-' ~ study_type ~ '-' ~ assistant_status %}
+                    {% for step_num in [1, 2, 3] %}
                         {% set step_key = 'step_' ~ step_num %}
-                        {% set study_key = faculty ~ '-' ~ study_type ~ '-' ~ assistant_status %}
-                        {% if all_steps[step_key] and study_key in all_steps[step_key] %}
-                        <ul class="page-list">
-                            {% for page in all_steps[step_key][study_key] %}
-                            <li class="{% if page == current_page %}active{% endif %}">
-                                <a href="{{ url_for('manual.show_step', step=step_num, faculty=faculty, study_type=study_type, assistant_status=assistant_status, page_name=page) }}">
-                                    {{ page.replace('-', ' ').title() }}
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                    </div>
+                        {% if step_num != 3 or (all_steps[step_key] and study_key in all_steps[step_key]) %}
+                        <!-- Step {{ step_num }} -->
+                        <button type="button" class="collapsible {% if step == step_num %}active{% endif %}">
+                            Step {{ step_num }}
+                        </button>
+                        <div class="content" style="{% if step == step_num %}display: block;{% endif %}">
+                            {% if all_steps[step_key] and study_key in all_steps[step_key] %}
+                            <ul class="page-list">
+                                {% for page in all_steps[step_key][study_key] %}
+                                {% set page_label = page.replace('-', ' ').title() %}
+                                {% if page.startswith('step-') and page.endswith('-SBE') %}
+                                    {% set page_label = 'Step ' ~ page.split('-')[1] ~ ' overview' %}
+                                {% endif %}
+                                <li class="{% if page == current_page %}active{% endif %}">
+                                    <a href="{{ url_for('manual.show_step', step=step_num, faculty=faculty, study_type=study_type, assistant_status=assistant_status, page_name=page) }}">
+                                        {{ page_label }}
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
+                    {% endif %}
                     {% endfor %}
                 </div>
             </div>
-
         </div>
     </div>
 
