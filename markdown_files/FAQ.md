@@ -22,7 +22,17 @@
         </p>
       </div>
     </details>
-
+    <details class="faq-item">
+      <summary>
+        <span class="q">Are there any other payment methods available?</span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="a">
+        Along with monetary compensation, we also allow payment via gift card, where the amount must be equivalent to what our study payment rules specify. Please note that we do not process or arrange gift cards ourselves — researchers need to arrange this themselves. 
+        <br><br>
+        Proof of payment is still required — if the gift card is sent online, CC us on the email confirming it was sent; if it's handed over in person, send a printed and signed declaration confirming the student has received the card.
+      </div>
+    </details>
     <details class="faq-item">
       <summary>
         <span class="q">Acknowledgements in paper</span>
@@ -32,17 +42,17 @@
         Please add the following statement in the Acknowledgments section of your manuscript: <strong>We thank the VU Behavioral Lab (Vrije Universiteit Amsterdam) for participant recruitment, lab usage, and data collection support</strong>.
       </div>
     </details>
-
     <details class="faq-item">
       <summary>
         <span class="q">How long in advance should I request a study?</span>
         <span class="chev" aria-hidden="true"></span>
       </summary>
       <div class="a">
-        Due to planning and registering, we require you to request physical lab studies at least 3 weeks / online studies at least 2 weeks before the session takes place, but preferably even earlier. 
+        For physical lab studies, you must first reserve a lab according to our booking rules before requesting approval. Lab reservation depends on availability, so the earlier, the better.
+        <br><br>
+        For online studies, you must request approval at least 2 weeks in advance, preferably even earlier.
       </div>
     </details>
-
     <details class="faq-item">
       <summary>
         <span class="q">Will my study be deactivated if there are no new time slots?</span>
@@ -52,17 +62,15 @@
         Yes. If no new time slots are added within 3 months, your study will be deactivated. This ensures that the system only displays active and available studies for participants.
       </div>
     </details>
-
     <details class="faq-item">
       <summary>
         <span class="q">I would like to invite an external researcher to the study.</span>
         <span class="chev" aria-hidden="true"></span>
       </summary>
       <div class="a">
-        Unfortunately, no external researchers are allowed to access the system. You can manage as a collaborator on their behalf.
+        External researchers (non-VU employees) cannot be given access to the system. Instead, a VU researcher must manage the study and recruit participants on their behalf. Participant payments must go through a VU budget number, or through a gift card that either the VU researcher or the external collaborator arranges directly.
       </div>
     </details>
-
     <details class="faq-item">
       <summary>
         <span class="q">I would like to invite an external participant to the study.</span>
@@ -72,7 +80,6 @@
         Unfortunately, at the moment, external participants cannot sign up or receive payments through the system.
       </div>
     </details>
-
     <details class="faq-item">
       <summary>
         <span class="q">Can I use prescreeners to select participants for my study?</span>

@@ -6,7 +6,8 @@ After selecting the study type, you will need to enter your study information. T
 
 When you are requesting an approval for your study, if information is missing or does not adhere to the requested standards, you will be asked to change it.
 
->[!screenshot] <i class="fa-solid fa-camera"></i> Image: Fill in the study information  
-><img src="/static/images/study-information.png" alt="Add New Study" class="responsive-image">
+<br>
+<i class="fa-solid fa-camera"></i> **Fill in the study information**
+<img src="/static/images/study-information.png" alt="Add New Study" class="responsive-image">
 
 
