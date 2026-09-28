@@ -24,6 +24,15 @@
     </details>
     <details class="faq-item">
       <summary>
+        <span class="q">If I cancel a session, do participants still get paid, and are travel costs covered?</span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="a">
+        No. Participants are only paid if they <strong>actually took part</strong>. If you cancel a session before participants arrive, they will not be compensated for it. VBL also <strong>does not cover travel expenses</strong> or other costs related to participation. The 24-hour cancellation rule applies to <strong>student participants only</strong>, so it does not restrict researchers, but please give participants as much notice as possible.
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>
         <span class="q">Are there any other payment methods available?</span>
         <span class="chev" aria-hidden="true"></span>
       </summary>
@@ -100,6 +109,26 @@
       </summary>
       <div class="a">
         We typically process payments within <strong>2 weeks</strong>, though this may take longer during holidays or summer break. Payment timelines can vary by study, so please check the study description for specific details.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>
+        <span class="q">Are travel expenses or other costs reimbursed?</span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="a">
+        No. VBL <strong>does not compensate for travel expenses</strong> or any other costs incurred in relation to participation. Compensation is limited to the participation rate for the study itself.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>
+        <span class="q">Are participants compensated if a study is cancelled?</span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="a">
+        No. Payment is only given to students who <strong>actually participated</strong> in the study. If a study is cancelled before the participant arrives, no compensation is provided for that session. Note that the 24-hour cancellation rule applies to <strong>student participants only</strong>, not to researchers, who may cancel or reschedule a session on their end as needed.
       </div>
     </details>
 

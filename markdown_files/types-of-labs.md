@@ -2,9 +2,6 @@
 
 VBL offers several types of labs, all located in the Transitorium building, each suited to different kinds of studies. Choose the one that best matches your study's setup and equipment needs.
 
->[!info] Common Lab (Computerzaal K2)
-> A large computer Lab for 20 participants, which can be booked for internet-based, large-scale studies in a behavioural economics setting.
-
 >[!info] 15 Cubicle Lab (K2B-74)
 > One of two cubicle labs, with 15 individual soundproofed cubicles that can be fully closed off to minimize outside noise. This lab can be split into two, allowing two different experiments to run at the same time. Suitable for a wide variety of studies, from surveys to experiments measuring reaction times, and can be used for solitary work or for experiments in which participants collaborate with or compete against each other. Includes an experimenter desk, and each cubicle has a desktop computer, keyboard, mouse, webcam, and audio headset.
 
